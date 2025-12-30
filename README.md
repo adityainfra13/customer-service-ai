@@ -21,7 +21,7 @@
 ✅ Result: AUTO-SEND
 ```
 
-[**📺 Watch Full Demo Video**](#) ← (Add your Loom link here)
+[**📺 Watch Full Demo Video**](#)
 
 ---
 
