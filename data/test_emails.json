@@ -1,0 +1,74 @@
+{
+  "test_emails": [
+    {
+      "id": 1,
+      "subject": "Order Status Question",
+      "body": "Hi, I ordered a Fender Stratocaster last week (order #45823) and have not received any shipping updates. Where is my guitar?",
+      "expected_category": "ORDER_TRACKING",
+      "complexity": "simple"
+    },
+    {
+      "id": 2,
+      "subject": "Defective Product",
+      "body": "The acoustic guitar I received (order #39201) has a crack in the neck. This is unacceptable! I need to return this immediately and get my money back.",
+      "expected_category": "RETURN_REFUND",
+      "complexity": "medium"
+    },
+    {
+      "id": 3,
+      "subject": "Product Inquiry",
+      "body": "Does the Gibson Les Paul Standard come with a hard case? Also, is it good for jazz music? I am an intermediate player looking to upgrade.",
+      "expected_category": "PRODUCT_QUESTION",
+      "complexity": "simple"
+    },
+    {
+      "id": 4,
+      "subject": "Warranty Question",
+      "body": "I bought a Marshall amp 8 months ago and now it is making weird buzzing noises. Is this covered under warranty? How do I get it repaired?",
+      "expected_category": "WARRANTY",
+      "complexity": "medium"
+    },
+    {
+      "id": 5,
+      "subject": "Multiple Issues",
+      "body": "Hello, I have several questions: 1) My order #52910 says delivered but I never got it, 2) I want to know if you have left-handed guitars, 3) What is your return policy if I do not like the sound? Please help!",
+      "expected_category": "MULTIPLE",
+      "complexity": "complex"
+    },
+    {
+      "id": 6,
+      "subject": "Beginner Guitar Help",
+      "body": "Hi! I am completely new to guitar and want to learn. What guitar would you recommend for a beginner? My budget is around $300. Thanks!",
+      "expected_category": "PRODUCT_QUESTION",
+      "complexity": "simple"
+    },
+    {
+      "id": 7,
+      "subject": "Angry Customer",
+      "body": "This is the THIRD time I am contacting you! My order #48392 was supposed to arrive 2 days ago and I still do not have it. I need this for a gig this weekend. This is completely unprofessional!!!",
+      "expected_category": "ORDER_TRACKING",
+      "complexity": "complex"
+    },
+    {
+      "id": 8,
+      "subject": "Exchange Request",
+      "body": "I bought a red Fender Telecaster but I actually want the blue one. Can I exchange it? I have not opened the box yet. Order #41203.",
+      "expected_category": "RETURN_REFUND",
+      "complexity": "simple"
+    },
+    {
+      "id": 9,
+      "subject": "Child Guitar Size",
+      "body": "What size guitar should I get for my 9-year-old daughter? She is about 4 feet 5 inches tall. Also, do you offer any kid-friendly starter packages?",
+      "expected_category": "PRODUCT_QUESTION",
+      "complexity": "medium"
+    },
+    {
+      "id": 10,
+      "subject": "Refund Status",
+      "body": "I returned a guitar 2 weeks ago (order #38475) and still have not received my refund. When will I get my money back?",
+      "expected_category": "RETURN_REFUND",
+      "complexity": "medium"
+    }
+  ]
+}
